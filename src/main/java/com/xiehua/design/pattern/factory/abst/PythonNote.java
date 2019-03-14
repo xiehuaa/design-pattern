@@ -6,5 +6,5 @@ package com.xiehua.design.pattern.factory.abst;
  * @author xiehua
  * @date 2019/03/11
  */
-public class PythonNote {
+public class PythonNote implements Note {
 }
