@@ -1,5 +1,8 @@
 package com.xiehua.design.pattern.proxy.staticproxy;
 
+import com.xiehua.design.pattern.proxy.JobSeeker;
+import com.xiehua.design.pattern.proxy.Student;
+
 /**
  * This is Description
  *
@@ -8,8 +11,8 @@ package com.xiehua.design.pattern.proxy.staticproxy;
  */
 public class StaticProxyTest {
     public static void main(String[] args) {
-        JobSeeker jobSeeker = new Student("张三");
+        JobSeeker jobSeeker = new Student();
         Agency agency = new Agency(jobSeeker);
-        agency.findWork();
+        agency.findJob();
     }
 }

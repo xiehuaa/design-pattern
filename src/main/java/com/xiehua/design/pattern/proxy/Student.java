@@ -1,5 +1,6 @@
-package com.xiehua.design.pattern.proxy.staticproxy;
+package com.xiehua.design.pattern.proxy;
 
+import com.xiehua.design.pattern.proxy.JobSeeker;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -14,11 +15,10 @@ import lombok.Setter;
 public class Student implements JobSeeker {
     private String name;
 
-    public Student(String name) {
-        this.name = name;
+    public Student() {
     }
     @Override
-    public void findWork() {
+    public void findJob() {
         System.out.println("学生" + this.name +"找工作");
     }
 }

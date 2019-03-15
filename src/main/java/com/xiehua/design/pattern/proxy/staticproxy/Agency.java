@@ -1,5 +1,7 @@
 package com.xiehua.design.pattern.proxy.staticproxy;
 
+import com.xiehua.design.pattern.proxy.JobSeeker;
+
 /**
  * This is Description
  *
@@ -14,8 +16,8 @@ public class Agency implements JobSeeker {
     }
 
     @Override
-    public void findWork() {
+    public void findJob() {
         System.out.println("中介按照学生要求寻找对应工作");
-        jobSeeker.findWork();
+        jobSeeker.findJob();
     }
 }

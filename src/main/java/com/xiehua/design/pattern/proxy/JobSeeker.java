@@ -1,4 +1,4 @@
-package com.xiehua.design.pattern.proxy.staticproxy;
+package com.xiehua.design.pattern.proxy;
 
 /**
  * This is Description
@@ -7,5 +7,5 @@ package com.xiehua.design.pattern.proxy.staticproxy;
  * @date 2019/03/14
  */
 public interface JobSeeker {
-    void findWork();
+    void findJob();
 }

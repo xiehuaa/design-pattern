@@ -15,6 +15,6 @@ import java.util.Date;
 @Getter
 public class Order {
     private Object orderInfo;
-    private Date creatTime;
+    private Date createTime;
     private Integer id;
 }
